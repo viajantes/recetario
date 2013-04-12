@@ -37,7 +37,6 @@
 		la id la podemos obtener usando
 	</para>
 	<screen><prompt>linux@viajantes:~$</prompt><userinput>screen -ls</userinput></screen>	
-	</para>
 	<para>
 		que nos dará una lista de sesiones de screen activas con su respectiva ID, 
 		En caso de querer reestablecer el proceso [debido a que lo separamos manualmente o en caso de falla] usamos
