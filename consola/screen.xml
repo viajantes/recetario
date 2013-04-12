@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+	<chapterinfo>
+		<keywordset>
+			<keyword>screen</keyword>
+			<keyword>SSH</keyword>
+		</keywordset>
+		<itermset>
+			<indexterm>
+  				<primary>screen</primary>
+			</indexterm>
+		</itermset>
+	</chapterinfo>
+	<title>Usando Screen para tener sesiones de SSH a prueba de caida de red.</title>
+	<para>
+		Separar un proceso al estar en una sesión remota
+
+Generalmente cuando accedemos remótamente a un equipo mediante SSH y nuestra conexión falla por algún motivo podemos perder información o
+ cerrar un proceso relevante, con el fin de evitar esto podemos hacer uso de screen [Aunque el uso de screen no está restringido a 
+conexiones remotas], que nos permite separar un proceso de la sesión actual en forma similar a una "terminal virtual" y 
+restablecerlo posteriormente.
+
+La sintáxis básica es la siguiente:
+
+$ screen
+
+crea el proceso a separarse y nos dá un entorno de línea de comandos
+
+dentro de esta línea de comandos podemos trabajar como lo haríamos normalmente, si queremos separar el proceso manualmente presionamos
+
+CTRL + A o desde otra terminal ejecutamos
+
+$ screen -d ID
+
+la id la podemos obtener usando
+
+$ screen -ls
+
+que nos dará una lista de sesiones de screen activas con su respectiva ID
+
+En caso de querer reestablecer el proceso [debido a que lo separamos manualmente o en caso de falla] usamos
+
+$ screen -r ID
+
+Que nos volverá a mostrar el entorno de línea de comandos que ejecutamos al comienzo
+
+
+*Convenciones usadas: $ indica prompt de terminal de usuario sin privilegios
+	</para>
+
+</chapter>

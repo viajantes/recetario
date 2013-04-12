@@ -3,6 +3,7 @@
 	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
 <!ENTITY md5 SYSTEM "filesystem/md5.xml">
 <!ENTITY chownRef SYSTEM "filesystem/cambiar propiedad a el dueño del directorio.xml">
+<!ENTITY SSHscreen SYSTEM "consola/screen.xml">
 ]>
 <book lang="es">
  <bookinfo>
@@ -58,6 +59,7 @@ Some content is always required.
 
 &md5;
 &chownRef;
+&SSHscreen;
 
   <index/>
 <colophon>
