@@ -12,18 +12,18 @@
 		</itermset>
 	</chapterinfo>
 	<title>Cambiando la propiedad de un archivo, a la misma del directorio donde se encuentra.</title>
-	<para>¿Existe un archivo que fue creado por un usuario distinto al due&nacute;o del directorio? la forma comun de cambiar la propiedad seria
-		<screen>chown usuarioLegitimo archivo</screen>	
+	<para>¿Existe un archivo que fue creado por un usuario distinto al due&ntilde;o del directorio? la forma comun de cambiar la propiedad seria
+		<screen><prompt>linux@viajantes:~$</prompt><userinput>chown usuarioLegitimo archivo</userinput></screen>	
 	</para>
-	<para>Pero existe una opcion mejor, a traves de los metadatos del directorio, podemos cambiar el dueño del archivo para que sea el mismo del 
+	<para>Pero existe una opcion mejor, a traves de los metadatos del directorio, podemos cambiar el due&ntilde;o del archivo para que sea el mismo del 
 	directorio con un simple comando.
-		<screen>chown --ref=. archivo</screen>
+		<screen><prompt>linux@viajantes:~$</prompt><userinput>chown --ref=. archivo</userinput></screen>
 	</para>
 		<tip>
 			<para>Podemos usar "--ref=" para sincronisar con cualquier otro archivo</para>
 		</tip>
 		<important>
-			<para>El usuario que ejecuta el comando tiene que poder escribir sobre los ficheros antes y despues de la ejecucion, si no, esta falla</para>
+			<para>El usuario que ejecuta el comando tiene que poder escribir sobre los ficheros antes y despues de la ejecucion, si no, la operacion falla</para>
 		</important>
 
 </chapter>
