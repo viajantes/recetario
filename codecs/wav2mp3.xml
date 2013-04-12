@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="wav2mp3">
+	<chapterinfo>
+		<keywordset>
+			<keyword>lame</keyword>
+			<keyword>xargs</keyword>
+		</keywordset>
+		<itermset>
+			<indexterm>
+  				<primary>lame</primary>
+			</indexterm>
+		</itermset>
+	</chapterinfo>
+	<title>Usando <application>LAME</application> para convertir <acronym>WAV</acronym> a <acronym>MP3</acronym>.</title>
+	<para>
+		Un caso simple, Tenemos cientos de <acronym>WAV</acronym> y queremos transformarlos en <acronym>MP3</acronym>
+	</para>
+	<para>
+		En bash tenemo la opcion de usar un comando simple para realisar la transformacion.
+	<screen><prompt>linux@viajantes:~$</prompt><userinput>	ls *.wav|xargs -n1 -i lame -h {} {}.mp3</userinput></screen>
+
+
+	<para>
+	De esta manera transformaremos todos nuestros .wav de nuestra coleccion a .mp3, pero el nombre quedara de esta manera:
+	</para>
+	<filename>nombreDeArchivo.wav.mp3</filename>
+	<para>
+		Por lo que nesesitamos quitar el "<filename class='extension'>.wav</filename>" del nombre de nuestros archivos, para eso usaremos el comando <command>rename</command>
+	</para>
+	<screen><prompt>linux@viajantes:~$</prompt><userinput>rename ‘s/\.wav//g’ *.mp3	</userinput></screen>	
+	
+	<para>
+		De esta manera podemos transformar todos nuestros .wav a mp3 de manera rapida y automatizada.
+	</para>
+	
+
+</chapter>
