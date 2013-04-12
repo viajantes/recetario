@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+	<chapterinfo>
+		<keywordset>
+			<keyword>chown</keyword>
+			<keyword>Files</keyword>
+		</keywordset>
+		<itermset>
+			<indexterm>
+  				<primary>chown</primary>
+			</indexterm>
+		</itermset>
+	</chapterinfo>
+	<title>Cambiando la propiedad de un archivo, a la misma del directorio donde se encuentra.</title>
+	<para>¿Existe un archivo que fue creado por un usuario distinto al due&nacute;o del directorio? la forma comun de cambiar la propiedad seria
+		<screen>chown usuarioLegitimo archivo</screen>	
+	</para>
+	<para>Pero existe una opcion mejor, a traves de los metadatos del directorio, podemos cambiar el dueño del archivo para que sea el mismo del 
+	directorio con un simple comando.
+		<screen>chown --ref=. archivo</screen>
+	</para>
+		<tip>
+			<para>Podemos usar "--ref=" para sincronisar con cualquier otro archivo</para>
+		</tip>
+		<important>
+			<para>El usuario que ejecuta el comando tiene que poder escribir sobre los ficheros antes y despues de la ejecucion, si no, esta falla</para>
+		</important>
+
+</chapter>

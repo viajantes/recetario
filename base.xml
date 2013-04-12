@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"   
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!ENTITY md5 SYSTEM "filesystem/md5.xml">
+<!ENTITY chownRef SYSTEM "filesystem/cambiar propiedad a el dueño del directorio.xml">
+]>
+<book lang="es">
+ <bookinfo>
+  <title>Recetas utiles para el uso de linux.</title>
+<authorgroup>
+   <author>
+    <firstname>Jesus Christian</firstname>
+    <surname>Cruz Acono</surname>
+    <affiliation>
+     <address>
+      <email>compermisos@gmail.com</email>
+     </address>
+    </affiliation>
+   </author>
+   <author>
+    <firstname>Hiram Jeronimo</firstname>
+    <surname>Perez Guzman</surname>
+    <affiliation>
+     <address>
+      <email>worg@linuxmail.org</email>
+     </address>
+    </affiliation>
+   </author>
+    <editor>
+    <firstname>Virginia Alejandra</firstname>
+    <surname>Zahuita Ornelas</surname>
+    <affiliation>
+     <address>
+      <email>worg@linuxmail.org</email>
+     </address>
+    </affiliation>
+   </editor>
+  </authorgroup>
+
+  <copyright>
+   <year>2012-2013</year>
+   <holder>Jesus Christian Cruz Acono & Hiram Jeronimo Perez Guzman</holder>
+  </copyright>
+
+  <legalnotice>
+   <para>Esta obra está licenciada bajo la Licencia Creative Commons Atribución-NoComercial-CompartirIgual 2.5 México. Para ver una copia de esta licencia, visita http://creativecommons.org/licenses/by-nc-sa/2.5/mx/.".</para>
+  </legalnotice>
+ </bookinfo>
+<dedication>
+	<para>.</para>
+</dedication>
+<preface status="draft"><title>Foreword</title>
+<para>
+Some content is always required.
+</para>
+</preface>
+
+
+&md5;
+&chownRef;
+
+  <index/>
+<colophon>
+<para>CC2013</para>
+</colophon>
+</book>
