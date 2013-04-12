@@ -9,6 +9,8 @@
 <book lang="es">
  <bookinfo>
   <title>Recetas utiles para el uso de linux.</title>
+  <subtitle>Recetas utiles para el uso de linux.</subtitle>
+  <abstract>conjunto de recetas para la shell de linux</abstract>
 	<authorgroup>
 	   <author>
    		 <firstname>Jesus Christian</firstname>
