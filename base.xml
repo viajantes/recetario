@@ -4,6 +4,7 @@
 <!ENTITY md5 SYSTEM "filesystem/md5.xml">
 <!ENTITY chownRef SYSTEM "filesystem/cambiar propiedad a el dueño del directorio.xml">
 <!ENTITY SSHscreen SYSTEM "consola/screen.xml">
+<!ENTITY wav2mp3 SYSTEM "codecs/wav2mp3.xml">
 ]>
 <book lang="es">
  <bookinfo>
@@ -60,6 +61,7 @@ Some content is always required.
 &md5;
 &chownRef;
 &SSHscreen;
+&wav2mp3;
 
   <index/>
 <colophon>
