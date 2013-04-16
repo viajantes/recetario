@@ -1,0 +1,3 @@
+ls *.wav|xargs -n1 -P4 -i lame -h {} {}.mp3
+
+rename ‘s/\.wav//g’ *.mp3
