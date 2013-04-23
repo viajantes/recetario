@@ -1,0 +1,7 @@
+Encontrar procesos que no nos pertenecen
+
+En algunas ocasiones se ejecutan procesos mediante servicios o programas de segundo plano, que quedan activos aún después de eliminar el principal o quizá tenemos más de un usuario y queremos ver quién está ejecutando qué.
+Para listar los procesos que no nos pertenezcan hacemos
+
+$ ps aux | grep -v `whoami`
+que nos dará una lista de procesos cuyo 'owner' es distinto a nuestro usuario, a partir de esa lista podremos discriminar y decidir si eliminamos o no alguno de esos procesos.
