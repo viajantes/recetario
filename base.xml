@@ -5,6 +5,9 @@
 <!ENTITY chownRef SYSTEM "filesystem/cambiar propiedad a el dueño del directorio.xml">
 <!ENTITY SSHscreen SYSTEM "consola/screen.xml">
 <!ENTITY wav2mp3 SYSTEM "codecs/wav2mp3.xml">
+<!ENTITY parte1 SYSTEM "introduccion a la shell.xml">
+<!ENTITY parte2 SYSTEM "el dia a dia con la shell.xml">
+<!ENTITY parte3 SYSTEM "recetas para el sysadmin.xml">
 ]>
 <book lang="es">
 	<bookinfo>
@@ -49,7 +52,12 @@
 			<holder>Jesus Christian Cruz Acono & Hiram Jeronimo Perez Guzman</holder>
 		</copyright>
 		<legalnotice>
-			<para>Esta obra está licenciada bajo la Licencia Creative Commons Atribución-NoComercial-CompartirIgual 2.5 México. Para ver una copia de esta licencia, visita http://creativecommons.org/licenses/by-nc-sa/2.5/mx/.".</para>
+			<!--<para>
+				Esta obra est&aacute; licenciada bajo la Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. Para ver una copia de esta licencia, visita <html:a href="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/">http://creativecommons.org/licenses/by-nc-sa/2.5/mx/</link>
+			</para>-->
+			<para>
+				Esta obra est&aacute; licenciada bajo la Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. Para ver una copia de esta licencia, visita <ulink url="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/"></ulink>
+			</para>
 		</legalnotice>
 	</bookinfo>
 	<dedication>
@@ -76,11 +84,11 @@
 		</para>
 	</preface>
 
-
-	&md5;
+	&parte1;
+	&parte2;
 	&chownRef;
-	&SSHscreen;
-	&wav2mp3;
+	
+
 	<index/>
 	<colophon>
 		<para>CC2013</para>

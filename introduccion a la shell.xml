@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<title>Introduccion a la shell</title>
+	<partintro>
+		<para>
+		Los primeros pasos a la Shell
+		</para>
+	</partintro>
+	&md5;
+</part>
