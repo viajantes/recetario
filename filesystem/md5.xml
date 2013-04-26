@@ -1,4 +1,4 @@
-<chapter>
+<chapter label="6" xml:id="figures" version="5.0">
 	<title>Comprobando la integridad de los archivos.</title>
 	<para>¿Que sentido tiene tener cientos de archivos si no podemos garantizar que estos no se encuentran dañados?</para>
 	<para>Es nesesario garantisar que los archivos no resultaron dañados al ser transportados de una ubicacion a otra, o por fallos de software o hardware</para>

@@ -1,3 +1,9 @@
+En una receta anterior, vimos como transformar archivos wav, en archivos MP3.
+Si bien es efectivo, si existe una gran cantidad de archivos el proceso se vuelve muy largo. Existe una forma de ejecutar mas rapido este comando, y se trata de usar "hilos" es decir, ejecutar varias veces el mismo proceso de manera paralela
+
 ls *.wav|xargs -n1 -P4 -i lame -h {} {}.mp3
 
 rename ‘s/\.wav//g’ *.mp3
+
+
+Es nesesario considerar la cantidad de prosesadores en la computadora y usar una cantidad similar de hilos, a la cantidad de procesadores disponibles, para de esta manera usar de manera mas eficiente los recursos de la computadora.

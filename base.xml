@@ -8,6 +8,7 @@
 <!ENTITY parte1 SYSTEM "introduccion a la shell.xml">
 <!ENTITY parte2 SYSTEM "el dia a dia con la shell.xml">
 <!ENTITY parte3 SYSTEM "recetas para el sysadmin.xml">
+<!ENTITY parte4 SYSTEM "formas mas eficientes de hacer las cosas.xml">
 ]>
 <book lang="es">
 	<bookinfo>
