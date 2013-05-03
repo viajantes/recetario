@@ -1,0 +1,12 @@
+Redireccionar la salida de un comando a un archivo
+
+En algunas ocasiones trabajamos con algún comando que da una salida mayor al buffer de la terminal, o requerimos guardar esa salida para análisis o cualquier otro fin, lo podemos hacer mediante:
+
+$ comando > archivo.txt
+el signo '>' indica que la salida estándar del comando se redireccionará hacia el archivo en lugar de mostrarse. Sobreescribiendo el contenido del archivo.
+
+ahora, si lo que queremos es agregar y no sobreescribir el archivo debemos usar '>>'
+
+$ comando >> archivo.txt
+
+Esto también es útil si queremos agregar información a un archivo y no disponemos de un editor.
