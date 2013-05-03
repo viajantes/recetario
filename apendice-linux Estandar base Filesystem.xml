@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appendix>
+	<title>Linux Standar Base Filesystem</title>
+	<para>
+		Definicion del LSB para el filesystem
+	</para>
+</appendix>

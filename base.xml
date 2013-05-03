@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"   
 	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!ENTITY proposito SYSTEM "proposito.xml">
+<!ENTITY convenciones SYSTEM "convenciones.xml">
+<!ENTITY APLSB SYSTEM "apendice-linux Estandar base Filesystem.xml">
+<!ENTITY APexpresionesRegulares SYSTEM "apendice-expreciones regulares.xml">
 <!ENTITY md5 SYSTEM "filesystem/md5.xml">
 <!ENTITY chownRef SYSTEM "filesystem/cambiar propiedad a el dueño del directorio.xml">
 <!ENTITY SSHscreen SYSTEM "consola/screen.xml">
@@ -79,16 +83,18 @@
 			</listitem>
 		</itemizedlist>
  	</acknowledgements>-->
-	<preface status="draft"><title>Foreword</title>
-		<para>
-			Some content is always required.
-		</para>
-	</preface>
-
+	<!-- prefacios-->
+	&proposito;
+   &convenciones;
+   <!-- partes-->
 	&parte1;
 	&parte2;
 	&parte3;
+	<!-- recetas sueltas-->
 	&chownRef;
+	<!-- apendices-->
+	&APLSB;
+	&APexpresionesRegulares;
 	
 
 	<colophon>
