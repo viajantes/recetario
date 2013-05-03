@@ -1,0 +1,9 @@
+<part>
+	<title>Recetas para el administrador de sistemas</title>
+	<partintro>
+		<para>
+		Pequeñas recetas para el administrador de sistemas atareado
+		</para>
+	</partintro>
+	&SSHscreen;
+</part>

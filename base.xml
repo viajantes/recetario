@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"   
 	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!ENTITY proposito SYSTEM "proposito.xml">
+<!ENTITY convenciones SYSTEM "convenciones.xml">
+<!ENTITY APLSB SYSTEM "apendice-linux Estandar base Filesystem.xml">
+<!ENTITY APexpresionesRegulares SYSTEM "apendice-expreciones regulares.xml">
 <!ENTITY md5 SYSTEM "filesystem/md5.xml">
 <!ENTITY chownRef SYSTEM "filesystem/cambiar propiedad a el dueño del directorio.xml">
 <!ENTITY SSHscreen SYSTEM "consola/screen.xml">
 <!ENTITY wav2mp3 SYSTEM "codecs/wav2mp3.xml">
+<!ENTITY parte1 SYSTEM "introduccion a la shell.xml">
+<!ENTITY parte2 SYSTEM "el dia a dia con la shell.xml">
+<!ENTITY parte3 SYSTEM "recetas para el sysadmin.xml">
+<!ENTITY parte4 SYSTEM "formas mas eficientes de hacer las cosas.xml">
 ]>
 <book lang="es">
 	<bookinfo>
@@ -49,7 +57,12 @@
 			<holder>Jesus Christian Cruz Acono & Hiram Jeronimo Perez Guzman</holder>
 		</copyright>
 		<legalnotice>
-			<para>Esta obra está licenciada bajo la Licencia Creative Commons Atribución-NoComercial-CompartirIgual 2.5 México. Para ver una copia de esta licencia, visita http://creativecommons.org/licenses/by-nc-sa/2.5/mx/.".</para>
+			<!--<para>
+				Esta obra est&aacute; licenciada bajo la Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. Para ver una copia de esta licencia, visita <html:a href="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/">http://creativecommons.org/licenses/by-nc-sa/2.5/mx/</link>
+			</para>-->
+			<para>
+				Esta obra est&aacute; licenciada bajo la Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. Para ver una copia de esta licencia, visita <ulink url="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/"></ulink>
+			</para>
 		</legalnotice>
 	</bookinfo>
 	<dedication>
@@ -70,18 +83,20 @@
 			</listitem>
 		</itemizedlist>
  	</acknowledgements>-->
-	<preface status="draft"><title>Foreword</title>
-		<para>
-			Some content is always required.
-		</para>
-	</preface>
-
-
-	&md5;
+	<!-- prefacios-->
+	&proposito;
+   &convenciones;
+   <!-- partes-->
+	&parte1;
+	&parte2;
+	&parte3;
+	<!-- recetas sueltas-->
 	&chownRef;
-	&SSHscreen;
-	&wav2mp3;
-	<index/>
+	<!-- apendices-->
+	&APLSB;
+	&APexpresionesRegulares;
+	
+
 	<colophon>
 		<para>CC2013</para>
 	</colophon>
