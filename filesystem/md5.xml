@@ -12,14 +12,14 @@
       xmlns:db="http://docbook.org/ns/docbook" >
 	<title>Comprobando la integridad de los archivos</title>
 	<para>¿Que sentido tiene tener cientos de archivos si no podemos garantizar que estos no se encuentran dañados?</para>
-	<para>Es nesesario garantisar que los archivos no resultaron dañados al ser transportados de una ubicacion a otra, o por fallos de software o hardware</para>
+	<para>Es necesario garantizar que los archivos no resultaron dañados al ser transportados de una ubicación a otra, o por fallos de software o hardware</para>
 	<indexterm>
 			<primary>md5</primary>
 	</indexterm>
 	<sect1>
 		<title>md5</title>
-		<para>md5 es un algorito de "resumen matematico", su funcionamiento consiste en realisar diferentes operaciones sobre los bits que le son
-		pasados como argumentos, para despues generar un "resumen" de 128 bits.</para>
+		<para>md5 es un algoritmo de "resumen matemático", su funcionamiento consiste en realizar diferentes operaciones sobre los bits que le son
+		pasados como argumentos, para después generar un "resumen" de 128 bits.</para>
 		
 		<para>Para comprobar la integridad de archivos en <acronym>Linux</acronym> podemos usar <command>md5sum</command></para>
 		<sect2>
@@ -32,17 +32,17 @@
 			</indexterm>
       </sect2>
 		<sect2>
-			<title>Usando <command>md5sum</command> para comprobar multiples archivos</title>
+			<title>Usando <command>md5sum</command> para comprobar múltiples archivos</title>
 			<para>Primero generamos las firmas.
 				<screen>md5sum *>> firmas.txt</screen>
 			</para>
-			<para>Despues comprobamos las firmas
+			<para>Después comprobamos las firmas
 				<screen>md5sum --c firmas.txt</screen>
 			</para>
 			
 			<tip>
 				<para>podemos elegir solo un tipo de archivos, por ejemplo "PDF" si usamos <screen>md5sum *.pdf>> firmas.txt</screen> solo calcularemos
-				las firmas para los archivos cuya extencion sea ".pdf"</para>
+				las firmas para los archivos cuya extensión sea ".pdf"</para>
 			</tip>
 			<indexterm>
 				<primary>md5</primary>
