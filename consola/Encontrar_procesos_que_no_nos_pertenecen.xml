@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY % allent SYSTEM "../w3centities-f.ent">
+%allent;
+]>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+      
+      <title>Encontrar procesos que no nos pertenecen</title>
+<para>
+En algunas ocasiones se ejecutan procesos mediante servicios o programas de segundo plano, 
+que quedan activos a&uacute;n despu&eacute;s de eliminar el principal o quiz&aacute; tenemos m&aacute;s de un usuario y 
+queremos ver qui&eacute;n est&aacute; ejecutando qu&eacute;.
+Para listar los procesos que no nos pertenezcan hacemos
+</para>
+
+<screen><prompt>linux@viajantes:~$</prompt><userinput>ps aux | grep -v &rsquo;whoami&rsquo;</userinput></screen>	
+<para>
+que nos dar&aacute; una lista de procesos cuyo &quot;owner&quot; es distinto a nuestro usuario, a partir de esa 
+lista podremos discriminar y decidir si eliminamos o no alguno de esos procesos.
+</para>
+</chapter>
