@@ -1,0 +1,3 @@
+#!/bin/bash
+JAVA_ARGS=-Dlog4j.configuration=file:///home/jccruz/.foplog4js.propietties fop -xml book.xml -xsl xsl/pdf.xsl -pdf book.pdf
+
