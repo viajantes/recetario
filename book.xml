@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE book [
 <!ENTITY % allent SYSTEM "w3centities-f.ent">
+
 %allent;
 ]>
 <book xmlns="http://docbook.org/ns/docbook" 
@@ -11,28 +12,60 @@
     xmlns:html="http://www.w3.org/1999/xhtml" 
     xmlns:db="http://docbook.org/ns/docbook" version="5.0">
   <info>
-    <title>Your Book Title</title>
-    <subtitle>Your Book Subtitle</subtitle>
-    <copyright>
-      <year>YEAR</year>
-      <holder>Your Name</holder>
-      
-    </copyright>
-    <author>
-      <personname>
-        <firstname>Your</firstname>
-        <surname>Name</surname>
-      </personname>
-      <address>
-        <city>Your City</city>
-        <street>123 Fake Street</street>
-        <postcode>55555</postcode>
-        <country>U.S.A</country>
-      </address>
-    </author>
-    
-    <edition>First Edition</edition>
-    <legalnotice>
+    <title>Recetas utiles para el uso de Linux</title>
+    <subtitle>Utilidades basicas para aprender a usar Linux</subtitle>
+<authorgroup>
+	   	<author>
+	   		<personname>
+   			 <firstname>Jesus Christian</firstname>
+ 	  			 <surname>Cruz Acono</surname>
+ 	  			 </personname>
+   			 <affiliation>
+   				<address>
+      				<email>compermisos@gmail.com</email>
+     				</address>
+    			</affiliation>
+   		</author>
+			<author>
+				<personname>
+				<firstname>Hiram Jeronimo</firstname>
+				<surname>Perez Guzman</surname>
+				</personname>
+				<affiliation>
+					<address>
+						<email>worg@linuxmail.org</email>
+					</address>
+				</affiliation>
+			</author>
+			<editor>
+				<personname>
+				<firstname>Virginia Alejandra</firstname>
+				<surname>Zahuita Ornelas</surname>
+				</personname>
+				<affiliation>
+					<address>
+						<email>worg@linuxmail.org</email>
+					</address>
+				</affiliation>
+			</editor>
+		</authorgroup>
+		<copyright>
+			<year>2013</year>
+			<holder>Jesus Christian Cruz Acono &amp; Hiram Jeronimo Perez Guzman</holder>
+		</copyright>
+		<legalnotice>
+			<!--<para>
+				Esta obra est&aacute; licenciada bajo la 
+				Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. 
+				Para ver una copia de esta licencia, visita <ulink url="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/"></ulink>
+			</para>-->
+			<!--<para>
+				Esta obra est&aacute; licenciada bajo la 
+				Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. 
+				Para ver una copia de esta licencia, visita 
+				<html:a href="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/">http://creativecommons.org/licenses/by-nc-sa/2.5/mx/</html:a>
+			</para>-->
+
       <para>Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and the author was aware of a trademark claim, the designations have 
       been printed in initial capital letters or in all capitals. </para>
       <para>
@@ -40,6 +73,8 @@
       assumes no responsibility for errors or omissions, or for damages that may result from 
       the use of information (including program listings) contained herein.</para>
     </legalnotice>
+    
+        <edition>First Edition</edition>
     <!-- for ePubs -->
     <cover>   
       <mediaobject>
