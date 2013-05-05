@@ -1,0 +1,17 @@
+Separar un proceso de una terminal
+
+Frecuentemente al estar trabajando en entornos gráficos o de línea de comandos iniciamos un programa desde una terminal y queremos cerrarla, manteniendo activo el proceso que ejecutamos, para esto es útil el comando disown.
+
+Si ya tenemos activo el proceso, presionamos [ctrl + z] para pausalo y a continuación ejecutamos:
+
+$ bg
+$ disown
+
+'bg' nos permite reanudar el proceso en segundo plano, y disown separarlo de la sesión de consola.
+Una vez hecho esto podremos cerrar la consola sin riesgo de terminar el proceso que previamente separamos
+
+Otro comando con función parecida es nohup, este nos permite evitar que el proceso reciba señales HUP [hangup] de la terminal, que ocasionan el cierre del mismo. La sintáxis es la siguiente:
+
+$ nohup comando &
+
+El '&' al final nos permite iniciar el proceso en segundo plano. Nohup a diferencia de disown mantiene una referencia al proceso en la terminal.
