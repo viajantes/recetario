@@ -27,7 +27,7 @@
 		Un caso simple, Tenemos cientos de <acronym>WAV</acronym> y queremos transformarlos en <acronym>MP3</acronym>
 	</para>
 	<para>
-		En bash tenemo la opcion de usar un comando simple para realisar la transformacion.
+		En bash tenemos la opción de usar un comando simple para realizar la transformación.
 	</para>
 	<screen><prompt>linux@viajantes:~$</prompt><userinput>	ls *.wav|xargs -n1 -i lame -h {} {}.mp3</userinput></screen>
 
@@ -37,12 +37,12 @@
 	</para>
 	<screen><filename>nombreDeArchivo.wav.mp3</filename></screen>	
 	<para>
-		Por lo que nesesitamos quitar el "<filename class='extension'>.wav</filename>" del nombre de nuestros archivos, para eso usaremos el comando <command>rename</command>
+		Por lo que necesitamos quitar el "<filename class='extension'>.wav</filename>" del nombre de nuestros archivos, para eso usaremos el comando <command>rename</command>
 	</para>
 	<screen><prompt>linux@viajantes:~$</prompt><userinput>rename &rsquo;s/\.wav//g&rsquo; *.mp3	</userinput></screen>	
 	
 	<para>
-		De esta manera podemos transformar todos nuestros <filename class='extension'>.wav</filename> a <filename class='extension'>.mp3</filename> de manera rapida y automatizada.
+		De esta manera podemos transformar todos nuestros <filename class='extension'>.wav</filename> a <filename class='extension'>.mp3</filename> de manera rápida y automatizada.
 	</para>
 	
 
