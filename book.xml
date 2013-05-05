@@ -122,10 +122,11 @@
 		</itemizedlist>
  	</acknowledgements>
  	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="proposito.xml"/>
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="convenciones.xml"/>
-
-
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="formas mas eficientes de hacer las cosas.xml"/>
+ 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="convenciones.xml"/>
+ 	
+ 	
+ 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="el dia a dia con la shell.xml"/>
+ 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="formas mas eficientes de hacer las cosas.xml"/>
     
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apendice-linux Estandar base Filesystem.xml"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apendice-expreciones regulares.xml"/>
