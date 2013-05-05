@@ -12,6 +12,6 @@
       xmlns:db="http://docbook.org/ns/docbook">
 	<title>Linux Standar Base Filesystem</title>
 	<para>
-		Definicion del LSB para el filesystem
+		Definición del LSB para el filesystem
 	</para>
 </appendix>

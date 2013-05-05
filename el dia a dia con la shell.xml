@@ -11,10 +11,10 @@
       xmlns:html="http://www.w3.org/1999/xhtml"
       xmlns:db="http://docbook.org/ns/docbook">
 
-	<title>El dia a dia con la Shell</title>
+	<title>El día a día con la Shell</title>
 	<partintro>
 		<para>
-		Comandos utiles para el uso diario de la consola de linux
+		Comandos útiles para el uso diario de la consola de Linux
 		</para>
 	</partintro>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="codecs/wav2mp3.xml"/>
