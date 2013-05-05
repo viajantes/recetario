@@ -2,4 +2,4 @@
 *.epub
 *.html
 base/*
-xsl/fo.xsl
+xsl/fo.xml
