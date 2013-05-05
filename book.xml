@@ -5,28 +5,28 @@
 %allent;
 ]>
 <book xmlns="http://docbook.org/ns/docbook" 
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:xi="http://www.w3.org/2001/XInclude"
-    xmlns:svg="http://www.w3.org/2000/svg" 
-    xmlns:mml="http://www.w3.org/1998/Math/MathML" 
-    xmlns:html="http://www.w3.org/1999/xhtml" 
-    xmlns:db="http://docbook.org/ns/docbook" version="5.0"
-    lang="es-rec">
-  <info>
-    <title>Recetas utiles para el uso de Linux</title>
-    <subtitle>Utilidades basicas para aprender a usar Linux</subtitle>
+xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:svg="http://www.w3.org/2000/svg" 
+	xmlns:mml="http://www.w3.org/1998/Math/MathML" 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:db="http://docbook.org/ns/docbook" version="5.0"
+	lang="es-rec">
+<info>
+	<title>Recetas utiles para el uso de Linux</title>
+	<subtitle>Utilidades basicas para aprender a usar Linux</subtitle>
 <authorgroup>
-	   	<author>
-	   		<personname>
-   			 <firstname>Jesus Christian</firstname>
- 	  			 <surname>Cruz Acono</surname>
- 	  			 </personname>
-   			 <affiliation>
-   				<address>
-      				<email>compermisos@gmail.com</email>
-     				</address>
-    			</affiliation>
-   		</author>
+			<author>
+				<personname>
+				<firstname>Jesus Christian</firstname>
+				<surname>Cruz Acono</surname>
+				</personname>
+				<affiliation>
+					<address>
+						<email>compermisos@gmail.com</email>
+					</address>
+				</affiliation>
+			</author>
 			<author>
 				<personname>
 				<firstname>Hiram Jeronimo</firstname>
@@ -56,47 +56,47 @@
 		</copyright>
 		<legalnotice>
 			<para>
-				Esta obra est&aacute; licenciada bajo la 
-				Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. 
+				Esta obra est&aacute; licenciada bajo la
+				Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico.
 				Para ver una copia de esta licencia, visita <ulink url="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/"></ulink>
 			</para>
 			<!--<para>
-				Esta obra est&aacute; licenciada bajo la 
-				Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. 
-				Para ver una copia de esta licencia, visita 
+				Esta obra est&aacute; licenciada bajo la
+				Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico.
+				Para ver una copia de esta licencia, visita
 				<html:a href="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/">http://creativecommons.org/licenses/by-nc-sa/2.5/mx/</html:a>
 			</para>-->
 
-      <para>Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and the author was aware of a trademark claim, the designations have 
-      been printed in initial capital letters or in all capitals. </para>
-      <para>
-      Every precaution was taken in the preparation of this manual. However, the author 
-      assumes no responsibility for errors or omissions, or for damages that may result from 
-      the use of information (including program listings) contained herein.</para>
-    </legalnotice>
-    
-        <edition>First Edition</edition>
-    <!-- for ePubs -->
-    <cover>   
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="cover/cover.jpg"/>
-        </imageobject>
-      </mediaobject>
-    </cover>
-  
-  </info>
-  <dedication>
+		<para>Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and the author was aware of a trademark claim, the designations have 
+		been printed in initial capital letters or in all capitals. </para>
+		<para>
+		Every precaution was taken in the preparation of this manual. However, the author 
+		assumes no responsibility for errors or omissions, or for damages that may result from 
+		the use of information (including program listings) contained herein.</para>
+	</legalnotice>
+
+		<edition>First Edition</edition>
+	<!-- for ePubs -->
+	<cover>   
+		<mediaobject>
+		<imageobject>
+			<imagedata fileref="cover/cover.jpg"/>
+		</imageobject>
+		</mediaobject>
+	</cover>
+
+</info>
+<dedication>
 		<para>.</para>
 	</dedication>
- 	 <acknowledgements>
+	<acknowledgements>
 		<para>Muchas gracias a todas las personas que ayudaron a revisar las primeras versiones de este libro, buscando errores y comentando la funcionalidad:
 		</para>
 		<itemizedlist>
 			<listitem>
 				<para>
 					<personname><firstname>A</firstname>
-					<surname>Nonymous</surname></personname>, for 
+					<surname>Nonymous</surname></personname>, for
 				</para>
 			</listitem>
 		</itemizedlist>
@@ -106,7 +106,7 @@
 			<listitem>
 				<para>
 					<personname><firstname>A</firstname>
-					<surname>Nonymous</surname></personname>, for 
+					<surname>Nonymous</surname></personname>, for
 				</para>
 			</listitem>
 		</itemizedlist>
@@ -116,24 +116,24 @@
 			<listitem>
 				<para>
 					<personname><firstname>A</firstname>
-					<surname>Nonymous</surname></personname>, for 
+					<surname>Nonymous</surname></personname>, for
 				</para>
 			</listitem>
 		</itemizedlist>
- 	</acknowledgements>
- 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="proposito.xml"/>
- 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="convenciones.xml"/>
- 	
- 	<!--<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="introduccion a la shell.xml"/>-->
- 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="recetas para el sysadmin.xml"/>
- 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="el dia a dia con la shell.xml"/>
- 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="formas mas eficientes de hacer las cosas.xml"/>
-    
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apendice-linux Estandar base Filesystem.xml"/>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apendice-expreciones regulares.xml"/>
+	</acknowledgements>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="proposito.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="convenciones.xml"/>
 
-  <index/>
-  <colophon>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="introduccion a la shell.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="recetas para el sysadmin.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="el dia a dia con la shell.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="formas mas eficientes de hacer las cosas.xml"/>
+	
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apendice-linux Estandar base Filesystem.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apendice-expreciones regulares.xml"/>
+
+	<index/>
+	<colophon>
 		<para>CC2013</para>
 	</colophon>
 </book>

@@ -1,5 +1,16 @@
-<chapter>
-	<title>Comprobando la integridad de los archivos.</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY % allent SYSTEM "../w3centities-f.ent">
+%allent;
+]>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook" >
+	<title>Comprobando la integridad de los archivos</title>
 	<para>¿Que sentido tiene tener cientos de archivos si no podemos garantizar que estos no se encuentran dañados?</para>
 	<para>Es nesesario garantisar que los archivos no resultaron dañados al ser transportados de una ubicacion a otra, o por fallos de software o hardware</para>
 	<indexterm>
