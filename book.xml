@@ -124,7 +124,8 @@
  	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="proposito.xml"/>
  	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="convenciones.xml"/>
  	
- 	
+ 	<!--<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="introduccion a la shell.xml"/>-->
+ 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="recetas para el sysadmin.xml"/>
  	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="el dia a dia con la shell.xml"/>
  	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="formas mas eficientes de hacer las cosas.xml"/>
     
