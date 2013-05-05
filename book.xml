@@ -10,7 +10,8 @@
     xmlns:svg="http://www.w3.org/2000/svg" 
     xmlns:mml="http://www.w3.org/1998/Math/MathML" 
     xmlns:html="http://www.w3.org/1999/xhtml" 
-    xmlns:db="http://docbook.org/ns/docbook" version="5.0">
+    xmlns:db="http://docbook.org/ns/docbook" version="5.0"
+    lang="es-rec">
   <info>
     <title>Recetas utiles para el uso de Linux</title>
     <subtitle>Utilidades basicas para aprender a usar Linux</subtitle>
@@ -87,7 +88,7 @@
   </info>
   
 
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter01.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="consola/Encontrar_procesos_que_no_nos_pertenecen.xml"/>
     
 
   <index/>
