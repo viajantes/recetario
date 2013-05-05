@@ -55,11 +55,11 @@
 			<holder>Jesus Christian Cruz Acono &amp; Hiram Jeronimo Perez Guzman</holder>
 		</copyright>
 		<legalnotice>
-			<!--<para>
+			<para>
 				Esta obra est&aacute; licenciada bajo la 
 				Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. 
 				Para ver una copia de esta licencia, visita <ulink url="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/"></ulink>
-			</para>-->
+			</para>
 			<!--<para>
 				Esta obra est&aacute; licenciada bajo la 
 				Licencia Creative Commons Atribuci&oacute;n-NoComercial-CompartirIgual 2.5 M&eacute;xico. 
@@ -86,10 +86,52 @@
     </cover>
   
   </info>
-  
+  <dedication>
+		<para>.</para>
+	</dedication>
+ 	 <acknowledgements>
+		<para>Muchas gracias a todas las personas que ayudaron a revisar las primeras versiones de este libro, buscando errores y comentando la funcionalidad:
+		</para>
+		<itemizedlist>
+			<listitem>
+				<para>
+					<personname><firstname>A</firstname>
+					<surname>Nonymous</surname></personname>, for 
+				</para>
+			</listitem>
+		</itemizedlist>
+		<para>Agradecimientos de Jesus Christian Cruz Acono:
+		</para>
+		<itemizedlist>
+			<listitem>
+				<para>
+					<personname><firstname>A</firstname>
+					<surname>Nonymous</surname></personname>, for 
+				</para>
+			</listitem>
+		</itemizedlist>
+		<para>Agradecimientos de Hiram:
+		</para>
+		<itemizedlist>
+			<listitem>
+				<para>
+					<personname><firstname>A</firstname>
+					<surname>Nonymous</surname></personname>, for 
+				</para>
+			</listitem>
+		</itemizedlist>
+ 	</acknowledgements>
+ 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="proposito.xml"/>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="convenciones.xml"/>
 
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="consola/Encontrar_procesos_que_no_nos_pertenecen.xml"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="formas mas eficientes de hacer las cosas.xml"/>
     
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apendice-linux Estandar base Filesystem.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apendice-expreciones regulares.xml"/>
 
   <index/>
+  <colophon>
+		<para>CC2013</para>
+	</colophon>
 </book>
