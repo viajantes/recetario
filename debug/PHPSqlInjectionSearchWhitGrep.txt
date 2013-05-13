@@ -1,0 +1,2 @@
+cat -bn debug/php/sampleSQLInjection.php|grep mysql_query |grep  \$_GET
+
