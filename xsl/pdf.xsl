@@ -15,7 +15,7 @@
 
 <!-- graphics for the alerts, tips, cautions, warnings, notes, etc. Build your own or turn this off! -->
 <xsl:param name="admon.graphics" select="1" />
-
+<xsl:param name="bibliography.collection">file:///bibliografia.xml</xsl:param>
 
 <!--programlisting stuff -->
 <xsl:param name="use.extensions" select="1"/>
