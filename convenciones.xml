@@ -11,6 +11,23 @@
       xmlns:html="http://www.w3.org/1999/xhtml">
 <title>Convenciones utilizadas a lo largo del recetario</title>
 	<para>
-		Some content is always required.
+		Ambos autores hemos intentado que cada una de las recetas puedan ser ejecutadas con los mínimos requisitos técnicos, que es básicamente una
+		consola de <application>Bash</application> con una instalación estándar, encaso de que no fuera así lo haremos saber de la siguiente forma
 	</para>
+	<note>Esta Receta requiere de el siguiente Software Adicional</note>
+	<para>Adicionalmente es necesario considerar las siguientes cosas</para>
+	<sect1>
+		<title>Convenciones en las recetas</title>
+		<para>Cuando hagamos menciones a un programa se vera así: <application>Bash</application></para>
+		<para>Los comandos serán mostrados de la siguiente manera: <command>md5sum</command></para>
+		<!--<para>Los Acronimos son mostrados asi: <acronym>UNIX</acronym></para>-->
+		<!--<para>Y las citas bibliográficas de esta manera: <xref  linkend="Sample"/><para>-->
+		<para>Cada vez que mostremos la consola, se vera de esta manera:
+			<screen><prompt>linux@viajantes:~$</prompt><userinput>md5sum</userinput></screen>
+		</para>	
+		<note>Esta es una nota</note>
+		<tip>Esta es una sugerencia util</tip>
+		<warning>Esta es una alerta importante</warning>
+	</sect1>
+	
 </preface>
