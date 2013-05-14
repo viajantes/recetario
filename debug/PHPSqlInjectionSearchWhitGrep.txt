@@ -3,3 +3,4 @@ cat -bn debug/php/sampleSQLInjection.php|grep mysql_query |grep  \$_GET
 grep -br mysql_query debug/php/|grep  \$_GET
 
 
+filter by @nahual awk -F : '{print "Filename: "$1"\nline: "$2"\nmatch: "$3"\n\n"}'
