@@ -34,10 +34,10 @@
 		<sect2>
 			<title>Usando <command>md5sum</command> para comprobar múltiples archivos</title>
 			<para>Primero generamos las firmas.
-				<screen>md5sum *>> firmas.txt</screen>
+				<screen><prompt>linux@viajantes:~$</prompt><userinput>md5sum *>> firmas.txt</userinput></screen>	
 			</para>
 			<para>Después comprobamos las firmas
-				<screen>md5sum --c firmas.txt</screen>
+				<screen><prompt>linux@viajantes:~$</prompt><userinput>md5sum --c firmas.txt</userinput></screen>	
 			</para>
 			
 			<tip>
