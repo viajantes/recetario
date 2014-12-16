@@ -9,8 +9,25 @@
       xmlns:svg="http://www.w3.org/2000/svg"
       xmlns:mml="http://www.w3.org/1998/Math/MathML"
       xmlns:html="http://www.w3.org/1999/xhtml">
-      <title>Propósito del Recetario</title>
+      
+      <title>Prop&oacute;sito del Recetario</title>
 	<para>
-		Some content is always required.
+		Imag&iacute;nate a las 2 de la ma&ntilde;ana. Es tu cuarta taza de caf&eacute;. Y de pronto, se te ocurre que necesitas la forma de saber si tu archivo fue modificado o no de manera r&aacute;pida. En otros tiempos, seguramente hubieras buscado a trav&eacute;s de internet. Pero ahora, seamos sinceros, lo mas probable es que preguntes en Facebook o en twiter, esperando que un alma caritativa sepa la respuesta y te haga el gran favor de contestarla.
 	</para>
+	<para>
+		Este recetario, naci&oacute; de la necesidad de compilar &quot;esas peque&ntilde;as recetas&quot; que a lo largo del tiempo que llevamos usando Linux se han ido juntando en m&uacute;ltiples archivos de nuestras computadores. Pero pronto se transformo en nuestra necesidad de aprender esos comandos que el otro usa, y por alg&uacute;n motivo, nosotros no us&aacute;bamos.
+	</para>
+	<para>
+		Pero pronto nos dimos cuenta de algo. Nos hab&iacute;amos convertido en &quot;esa alma caritativa&quot; que contesta a los pedidos de ayuda de Facebook o Twitter. Muchas de las recetas que a continuaci&oacute;n mostramos nacen de &quot;esos pedidos de ayuda&quot;. Y fueron incluido aqu&iacute; con la &uacute;nica intenci&oacute;n de que no se pierdan en la inmensidad de las redes sociales.
+	</para>
+	<para>
+		Estamos conscientes que a muchos les parecer&aacute; extra&ntilde;o, por no decir decepcionante el contenido del libro, y esto tiene una explicaci&oacute;n muy simple, Este recetario no intenta crear administrador de sistemas, ni gurus de la shell, lo que intenta es convertirse en un libro que puedas abrir en cualquier hoja, y ejecutar el comando que se encuentra hay, sin el mas m&iacute;nimo problema. Esperando que el exito de esa peque&ntilde;a receta, los induzca a buscar por si mismos el como funciona.
+	</para>
+	<para>
+		Esperamos que el recetario se convierta en el punto de partida para muchos nuevos usuarios de Linux, y que estos descubran el nuevo mundo que les ofrece su shell.
+	</para>
+	<para>
+		Para lo cual hemos buscado nuestras mejores 99 recetas y las hemos ordenado en 4 secciones que llevan por nombre ## ## ## y ##, cada una contiene recetas simples, individuales, con una explicaci&oacute;n lo mas simple posible sobre su funcionamiento. Normalmente las recetas se encuentran aisladas, pero unas cuantas &quot;se encuentran repetidas&quot; en la 4ta secci&oacute;n, Estamos seguros que en dicha  secci&oacute;n encontraran nuevas formas de hacer &quot;lo que ya hacemos&quot; algunas mas rapidas, algunas mas lentas, pero definitivamente, interesantes.
+	</para>
+
 </preface>
